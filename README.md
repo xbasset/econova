@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Econova
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Econova is a mobile business simulation game focused on the energy transition and reducing CO₂ emissions. Players collect funds, invest in green projects, and transform the economy towards sustainability.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Tap to collect donations and fund projects.
+- Invest in initiatives that reduce carbon emissions.
+- Develop clean energy and waste management solutions.
+- Manage resources to balance economic growth and environmental impact.
 
-   ```bash
-   npm install
+## Tech Stack
+
+- **React Native** (Expo) – Cross-platform mobile development.
+- **NativeWind** – TailwindCSS for styling in React Native.
+- **JavaScript/TypeScript** – Core programming languages.
+
+## Setup & Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/econova.git
+   cd econova
+   ```
+2. Initialize Expo inside the existing directory:
+   ```sh
+   npx create-expo-app@latest .
+   ```
+3. Install dependencies:
+   ```sh
+   npm install nativewind tailwindcss
+   ```
+4. Configure Tailwind:
+   ```sh
+   npx tailwindcss init
+   ```
+   Update `tailwind.config.js`:
+   ```js
+   module.exports = {
+     content: ["./App.{js,jsx,ts,tsx}", "./screens/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+     theme: { extend: {} },
+     plugins: [],
+   };
+   ```
+5. Enable NativeWind in `app.json`:
+   ```json
+   "plugins": ["nativewind/babel"]
    ```
 
-2. Start the app
+## Running the Project
 
-   ```bash
-    npx expo start
-   ```
+Start the Expo development server:
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code with the Expo Go app on your mobile to test the game.
 
-## Learn more
+## Roadmap
 
-To learn more about developing your project with Expo, look at the following resources:
+-
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Contributing
 
-## Join the community
+Feel free to submit issues, feature requests, or contribute via pull requests!
 
-Join our community of developers creating universal apps.
+## License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MIT License. See `LICENSE` for details.
+

@@ -10,4 +10,4 @@ Page :
 Projets :
 1. Communication > ++ chaque clique
 
-### Plusieurs échelles : mondiale, perso, etc…
+### Plusieurs échelles : mondiale, perso, etc….

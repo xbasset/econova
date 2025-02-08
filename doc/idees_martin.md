@@ -1,3 +1,5 @@
+# Notes générales
+
 ### **Thème** : La transition énergétique
 Page :
 1. Base

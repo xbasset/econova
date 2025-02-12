@@ -24,9 +24,7 @@ export default function App() {
       
       {/* Bottom Menu */}
       <View className="absolute bottom-5 flex-row justify-between w-full px-10">
-        <View className="w-16 h-16 bg-white rounded-lg shadow-md" />
-        <View className="w-16 h-16 bg-white rounded-lg shadow-md" />
-        <View className="w-16 h-16 bg-white rounded-lg shadow-md" />
+      <View className="w-16 h-16 bg-white rounded-lg shadow-md" />
       </View>
     </View>
   );

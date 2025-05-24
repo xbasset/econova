@@ -1,8 +1,8 @@
-**Eco Tycoon \- Game Specification**
+**Econova \- Game Specification**
 
 **1\. Overview**
 
-* **Title:** Eco Tycoon  
+* **Title:** Econova  
 * **Genre:** Idle/Clicker, Simulation, Economy  
 * **Platform:** iOS and Android  
 * **Target Audience:** Casual gamers, environmentally conscious individuals, simulation game enthusiasts  
@@ -54,8 +54,8 @@
 
 **7\. Technical Considerations**
 
-* **Engine:** Unity or similar for cross-platform development.  
-* **Data Storage:** Cloud-based saving to allow progress across devices.
+* **Engine:** Flutter.  
+* **Data Storage:** Google Cloud Platform.
 
 **8\. Success Metrics**
 
